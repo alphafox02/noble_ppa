@@ -3,10 +3,10 @@ Version: 1.0.5
 Architecture: all
 Maintainer: SDRplay
 Filename: ./SDRconnect_amd64.deb
-Size: 38492106
-MD5sum: c5675c052f5eaabeb65f88769b28c022
-SHA1: efc62b7f6dbf2629ec9bf17c35d7b27900781d15
-SHA256: 9c027384cbe46109ddf93812d380e795cf637866d1eb578f080e20cec2e58ee9
+Size: 38492566
+MD5sum: 5ca1e80f965b0d32721f72acc149dc77
+SHA1: 6f5ae9930f0e1386601d4551efcb33b601b8eb80
+SHA256: 01367436fc790e898f8351fdb5ba1508c9947101e09b576bdf11d924b08aeb1e
 Description: SDR receiver software
 
 Package: sdrangel
