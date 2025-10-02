@@ -1,3 +1,20 @@
+Package: SDRReceiver
+Source: https://github.com/jeroenbeijer/SDRReceiver
+Version: 2.0
+Architecture: amd64
+Maintainer: https://github.com/jeroenbeijer
+Depends: qtmultimedia5-dev, libvorbis-dev, libogg-dev, libqt5multimedia5-plugins, libqcustomplot-dev, libqt5svg5-dev, libzmq3-dev, libusb-dev, librtlsdr-dev
+Provides: SDRReceiver
+Filename: ./SDRReceiver_2.0-1.deb
+Size: 466856
+MD5sum: 8e3c6a5288d145b40b907c192022372e
+SHA1: b790a6c384442e7138a7ae6a38aee68657832c3b
+SHA256: 672a9f78f4270a5dd7556a7bc6811b0d1969b89ad4e209a01ff34eb0a8d11764
+Section: base
+Priority: extra
+Description: SDR Receiver for JAERO
+License: MIT
+
 Package: SDRconnect
 Version: 1.0.5
 Architecture: all
