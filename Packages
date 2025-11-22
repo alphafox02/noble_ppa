@@ -26,6 +26,23 @@ SHA1: 6f5ae9930f0e1386601d4551efcb33b601b8eb80
 SHA256: 01367436fc790e898f8351fdb5ba1508c9947101e09b576bdf11d924b08aeb1e
 Description: SDR receiver software
 
+Package: qlog
+Version: 0.46.2-1~noble
+Architecture: amd64
+Maintainer: Ladislav Foldyna <ok1mlg@gmail.com>
+Installed-Size: 14738
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libhamlib4t64 (>= 4.5), libqt5charts5 (>= 5.7.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5keychain1 (>= 0.7.0), libqt5network5t64 (>= 5.15.1), libqt5serialport5 (>= 5.9.0), libqt5sql5t64 (>= 5.10.0), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libsqlite3-0 (>= 3.6.0), libstdc++6 (>= 5.2)
+Filename: ./qlog_0.46.2-1~noble_amd64.deb
+Size: 8900836
+MD5sum: 2a9ce4f60e97ba5075a07fcfa14e0547
+SHA1: a5ae5daad45facf090344d07fd5fbe1ac3c306ed
+SHA256: 0591c4e4f66159132047caff9507755fc834a9e26932bf1f641cb6de4152dd04
+Section: hamradio
+Priority: optional
+Description: Qt Logging program for hamradio operators
+ QLog is an Amateur Radio logging application for Linux, Windows and Mac OS. It
+ is based on the Qt 5 framework and uses SQLite as database backend.
+
 Package: sdrangel
 Version: 7.22.9-1
 Architecture: amd64
