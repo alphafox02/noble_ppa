@@ -27,16 +27,16 @@ SHA256: 01367436fc790e898f8351fdb5ba1508c9947101e09b576bdf11d924b08aeb1e
 Description: SDR receiver software
 
 Package: jtdx
-Version: 2.2.159-1
+Version: 2.2.159-3-1
 Architecture: amd64
 Maintainer: root@dragon
 Installed-Size: 22672
 Provides: build
-Filename: ./jtdx_2.2.159-1_amd64.deb
-Size: 10235288
-MD5sum: 081fdf2207f45586595a6364f98dee14
-SHA1: a63cee3c553285ac8dc34a715071fdffa90c1c85
-SHA256: a85e337d00cc5c3e30560319301bc30e5d7b55b980ae7257318cb2e109ef1c6d
+Filename: ./jtdx_2.2.159-3-1_amd64.deb
+Size: 10235202
+MD5sum: ff7d1e1542c133010f6bfc0e4a74e72f
+SHA1: 9c60fc31eb640076fd99a2448f547582245fb8bf
+SHA256: ef194b2dd0894d4ce1e530bc4e8313471293c66d7e2fadebbfb50ed61b62c506
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
