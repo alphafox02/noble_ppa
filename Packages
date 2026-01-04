@@ -26,6 +26,21 @@ SHA1: 6f5ae9930f0e1386601d4551efcb33b601b8eb80
 SHA256: 01367436fc790e898f8351fdb5ba1508c9947101e09b576bdf11d924b08aeb1e
 Description: SDR receiver software
 
+Package: gqrx-sdr
+Version: 20260103-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 2172
+Provides: build
+Filename: ./gqrx-sdr_20260103-1_amd64.deb
+Size: 671564
+MD5sum: 38ba3305bb6f8f6429733a8f82f8b016
+SHA1: 7fa3adbc6f1ab1a452383f9df2be8bb6c84f5280
+SHA256: 7c4652ec7be16e73b9146bf427edfecc57c8e84250a155dfd8456a0c1efc51d9
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: jtdx
 Version: 2.2.159-2build3-1
 Architecture: amd64
