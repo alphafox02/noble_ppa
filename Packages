@@ -56,6 +56,21 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: libhackrf0
+Version: 20260107-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 500
+Provides: build
+Filename: ./libhackrf0_20260107-1_amd64.deb
+Size: 79300
+MD5sum: be1803908be04a552693c5125e54a3f4
+SHA1: 18950f6aa9934c1162229d77dbe6c00cc3280c60
+SHA256: d6582edee4f991fff092799c51553fceb916917da1714c566a87445027e0871c
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: qlog
 Version: 0.46.2-1~noble
 Architecture: amd64
