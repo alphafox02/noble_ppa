@@ -117,3 +117,18 @@ Description: SDR/Analyzer/Generator front-end for various hardware
    Analog: AM, ATV, NFM, SSB, WFM
    Digital: DVB-S, Packet (AX.25), AIS, 802.15.4
 
+Package: sdrpp
+Version: 20260130-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 9856
+Provides: build
+Filename: ./sdrpp_20260130-1_amd64.deb
+Size: 2310888
+MD5sum: 0e378a970de1025c5064f149f0c9230b
+SHA1: 71f8db6b1bda5fec4d0a7aac68275ebf668ec1b3
+SHA256: a66abab60a621b475f73a264fc7be49ef9bd1fb7236ccaf908c3540ae06edcab
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
