@@ -26,6 +26,27 @@ SHA1: 6f5ae9930f0e1386601d4551efcb33b601b8eb80
 SHA256: 01367436fc790e898f8351fdb5ba1508c9947101e09b576bdf11d924b08aeb1e
 Description: SDR receiver software
 
+Package: falcon-lte
+Version: 1.3.0
+Architecture: amd64
+Maintainer: Local Build <local@localhost>
+Depends: libqt5widgets5, libqt5charts5, libfftw3-single3, libboost-program-options1.83.0, libboost-system1.83.0, libsoapysdr0.8
+Recommends: libuhd4.6.0 | libuhd4.7.0 | libuhd4.8.0 | libuhd4.9.0
+Filename: ./falcon-lte_1.3.0_amd64.deb
+Size: 2837776
+MD5sum: d5b9ba5d941db4b5ff143d616cac638a
+SHA1: 3783dfedc7b8c7c94656b37f1ab62e57bf1a9745
+SHA256: 72901c52a3d0622733f0138a21b8b7821ca3bc50dea9eb00295ed4193a9e2788
+Section: comm
+Priority: optional
+Description: FALCON - Fast Analysis of LTE Control channels
+ FALCON is an open-source software collection for real-time analysis
+ of radio resources in LTE networks. It decodes the Physical Downlink
+ Control Channel (PDCCH) to identify active devices and their
+ resource allocations.
+ .
+ This package installs FALCON to /opt/falcon with a desktop shortcut.
+
 Package: gqrx-sdr
 Version: 20260103-1
 Architecture: amd64
