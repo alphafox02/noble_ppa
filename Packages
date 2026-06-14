@@ -92,6 +92,42 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: libuhd-dev
+Version: 4.9.0.1
+Architecture: amd64
+Maintainer: aaron@cemaxecuter.com
+Installed-Size: 1364
+Depends: libuhd4.9.0 (= 4.9.0.1)
+Filename: ./libuhd-dev_4.9.0.1_amd64.deb
+Size: 150364
+MD5sum: a83309c852958b8243a00c828ac1df90
+SHA1: f1b0abe0d64771be464cd944227111a36759b7de
+SHA256: 8eea4f5dd96721558b4383a5b63dc9421e3221a0e38fa8bf0463bae69b1d9a03
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/bkerler/uhd
+Description: UHD 4.9.0.1 development headers (bkerler e200 fork)
+ C++ API headers matching libuhd4.9.0 4.9.0.1; required to build against UHD.
+
+Package: libuhd4.9.0
+Version: 4.9.0.1
+Architecture: amd64
+Maintainer: aaron@cemaxecuter.com
+Installed-Size: 74128
+Depends: libboost-chrono1.83.0t64, libboost-filesystem1.83.0, libboost-serialization1.83.0, libboost-thread1.83.0, libc6, libcap2, libgcc-s1, libstdc++6, libudev1, libusb-1.0-0
+Filename: ./libuhd4.9.0_4.9.0.1_amd64.deb
+Size: 19111434
+MD5sum: d954e3bdb45d0864d5bec769f9e83015
+SHA1: 91dbaa1a7b148ab625f07743319089d90b1730a2
+SHA256: 1b82e290bdb532dac598dc7edb08f6ab3ce121cbb50edf15c8ef63b0e6bb3729
+Section: libs
+Priority: optional
+Homepage: https://github.com/bkerler/uhd
+Description: UHD 4.9.0.1 (bkerler e200 fork) with SDRPro GPSDO fix + ANTSDR E200 + PR922 NMEA
+ Soname libuhd.so.4.9.0 - ABI-compatible drop-in for stock libuhd4.9.0 (4.9.0.0).
+ Library only (lib+cmake+pkgconfig+images+man), matching the stock package layout;
+ the uhd_* host tools and the extended firmware image set are pasted separately.
+
 Package: qlog
 Version: 0.46.2-1~noble
 Architecture: amd64
